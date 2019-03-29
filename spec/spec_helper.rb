@@ -5,6 +5,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 require_relative "../lib/grandma.rb"
+require_relative ".grandma_spec.rb"
 
 RSpec.configure do |config|
   # config.treat_symbols_as_metadata_keys_with_true_values = true
